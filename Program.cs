@@ -15,6 +15,15 @@ namespace Exercise4
             st.Push('x');
             st.Push('y');
             Console.WriteLine("Count of elements in the Current Stack: "+st.Count);
+            Console.WriteLine("Stack = ");
+            foreach (char c in st)
+            {
+                Console.WriteLine();
+                st.Push('s');
+                st.Push('t');
+                st.Push('u');
+                st.Push('v');
+            }
         }
     }
 }
