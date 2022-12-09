@@ -29,6 +29,9 @@ namespace Exercise4
                     Console.Write(ch + " ");
                 }
                 Console.WriteLine("\nCount of elements in the Stack: "+st.Count);
+                Console.WriteLine();
+                Console.WriteLine("Pop a value!");
+
             }
         }
     }
