@@ -10,7 +10,7 @@ namespace Exercise4
     {
         static void Main(string[] args)
         {
-            Stack st = Stack();
+            Stack st =new Stack();
             st.Push('w');
             st.Push('x');
             st.Push('y');
@@ -43,7 +43,7 @@ namespace Exercise4
                 Console.WriteLine("Current stack:");
                 foreach (char ch in st)
                 {
-
+                    Console.WriteLine("\nCount of elements in the Current Stack: "+st.Count);
                 }
             }
         }
