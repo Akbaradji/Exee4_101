@@ -38,6 +38,13 @@ namespace Exercise4
                     Console.Write(c + " ");
                 }
                 Console.WriteLine("\nCount of elements in the Current Stack: "+st.Count);
+                Console.WriteLine("\nPop another value!");
+                st.Pop();
+                Console.WriteLine("Current stack:");
+                foreach (char ch in st)
+                {
+
+                }
             }
         }
     }
