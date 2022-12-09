@@ -23,6 +23,12 @@ namespace Exercise4
                 st.Push('t');
                 st.Push('u');
                 st.Push('v');
+                Console.WriteLine("Stack after adding thow elements");
+                foreach (char ch in st)
+                {
+                    Console.Write(ch + " ");
+                }
+                Console.WriteLine("\nCount of elements in the Stack: "+st.Count);
             }
         }
     }
